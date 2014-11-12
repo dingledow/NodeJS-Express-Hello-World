@@ -6,7 +6,7 @@ module.exports = function(grunt) {
           'public/stylesheets/style.css' : 'sass/style.scss'
         }
       }
-    }
+    },
 
     watch: {
       source: {
@@ -17,6 +17,7 @@ module.exports = function(grunt) {
         }
       }
     }
+  });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.registerTask('default', ['sass']);
